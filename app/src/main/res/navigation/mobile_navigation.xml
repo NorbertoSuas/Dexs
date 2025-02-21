@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@id/nav_catalogo">
+
+    <fragment
+        android:id="@+id/nav_catalogo"
+        android:name="com.example.evidencia1.ui.gallery.CatalogFragment"
+        android:label="Catálogo"
+        tools:layout="@layout/fragment_catalogo" />
+
+    <fragment
+        android:id="@+id/nav_ofertas"
+        android:name="com.example.evidencia1.ui.home.OfertasFragment"
+        android:label="Ofertas"
+        tools:layout="@layout/fragment_ofertas" />
+
+    <fragment
+        android:id="@+id/nav_contacto"
+        android:name="com.example.evidencia1.ui.slideshow.CatalogoFragment"
+        android:label="Contacto"
+        tools:layout="@layout/fragment_contacto" />
+
+</navigation>
