@@ -19,6 +19,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "EVIDENCIA1"
+rootProject.name = "Evidencia 3"
 include(":app")
  
